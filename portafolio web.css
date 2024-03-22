@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html{
+    scroll-behavior: smooth;
+}
+#inicio{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("fondito\ portafolio.gif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#inicio .contenido header{
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: blueviolet;
+}
+#inicio .contenido header .contenido-header nav ul{
+list-style: none;
+display: flex;
+align-items: center;
+}
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: dashed;
+    color: #fff;
+    margin: 0 12px;
+font-weight: 400;
+transition: .5s;
+}
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: blueviolet;
+}
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5;
+}
+#inicio .contenido header .contenido-header .redes a:hover {
+    color: rgb(202, 176, 226);
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 20px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+}
+#inicio .contenido .presentacion h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#inicio .contenido .presentacion h2 span{
+    font-size: 30px;
+    color: blueviolet;
+}
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+ margin: 25px auto;
+ font-size: 18px;
+ text-align: center;   
+}
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+border: 2px solid #fff;
+border-radius: 50px;
+color: #fff;
+font-weight: bold;
+text-transform: uppercase;
+transition: .5s;
+}
+#inicio .contenido .presentacion a:hover{
+    background-color: blueviolet;
+}
+#icono-nav{
+    color: #fff;
+    display: none;
+}
+/*about me*/
+#aboutme{
+max-width: 1100px;
+margin: auto;
+padding: 100px 15px;
+color: #111135;
+display: flex;
+}
+#aboutme .contenedor-foto{
+    max-width: 400px;
+    margin-right: 80px;
+}
+#aboutme .contenedor-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+#aboutme .aboutme{
+ margin: 0 40px;
+}
+#aboutme .aboutme .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+#aboutme .aboutme h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+#aboutme .aboutme h2 span{
+    color: blueviolet;
+}
+#aboutme .aboutme h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+#aboutme .aboutme p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+#portafolio{
+    padding: 100px 15px;
+text-align: center;
+background-color: #f3f3f3;
+}
+#portafolio .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+#portafolio .fila{
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+#portafolio .fila .portafolio{
+    max-width: 350px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 5px;
+    border-right: 5px;
+    transition: .5s;
+}
+#portafolio .fila .portafolio:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+}
+#portafolio .fila .portafolio h4{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+#portafolio .fila .portafolio .icono{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+#portafolio .fila .portafolio hr{
+    width: 30%;
+    margin: auto;
+    color: #000;
+    margin-bottom: 25px;
+}
+#portafolio .fila .portafolio ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+#portafolio .fila .portafolio p{
+    font-size: 14px;
+    line-height: 22px;
+}
+/*Skills*/
+.contenedor-skills{
+    background: linear-gradient(#a14be7cc, rgba(33,16,16,.8)), url(Typing.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+.contenedor-skills .skill{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.contenedor-skills .skill .info{
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+}
+.contenedor-skills .skill .lista{
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+}
